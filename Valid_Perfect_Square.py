@@ -1,12 +1,10 @@
 import math
-def sq(x):
-    root = math.sqrt(x)
-    
-    if int(root + 0.5) ** 2 == x:
+def sq(number):
+    root = math.sqrt(number)
+    if int(root + 0.5) ** 2 == number:
         return True
     else:
         return False
-
 t=int(input())
 for i in range(t):
     n=int(input())
