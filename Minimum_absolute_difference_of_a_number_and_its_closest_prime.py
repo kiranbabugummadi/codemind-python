@@ -11,6 +11,7 @@ while a:
         break
     else:
         a+=1
+    
 while b:
     is_prime=True
     for i in range(2,int(b**0.5)+1):
@@ -31,4 +32,4 @@ if n==1 or s==n+1:
 elif abs(a-n)<abs(b-n):
     print(abs(a-n))
 else:  
-    print(abs(b-n))
+    print(abs(b-n))    
