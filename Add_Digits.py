@@ -8,3 +8,19 @@ def sum_of(n):
     return s
 n=int(input())
 print(sum_of(n))
+
+=========================================================================
+num=int(input())
+x=num
+s=0
+while x>0:
+    r=x%10
+    s=s+r
+    x=x//10
+    if (x==0) and (s<10):
+        print(s)
+        break
+    else:
+        if (x==0) and (s>9):
+            x=s
+            s=0
